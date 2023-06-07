@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+
+  /* ==========Navbar========== */
+  
+   .logo {
+    font-size: 32px;
+   }
+   .nav-item a:hover{
+    background-color: #9906d3;
+    border-radius: 5px;
+    padding: 5px;
+   }
+   @media(min-width: 850px){
+   .collapse{
+    margin-left: 50vw;
+    font-size: 18px;
+    font-weight:600 ;
+   }
+  }
+  @media(min-width: 625px){
+    .navbar{
+      padding-left: 3vw;
+      padding-right: 3vw;
+    }
+  }
+  @media(max-width: 594px){
+    .navbar{
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
+    .collapse{
+      margin-left: 0vw;
+    }
+  }
+
+    
+
+ /* ==============Background Image============== */
+
+ .bg-img{
+  position: relative;
+ }
+ .bg-img img{
+  width: 100%;
+  height: 48vw;
+ }
+ .img-content{
+  margin-top:10vw;
+  width: 80vw;
+  margin-left: 9vw;
+  background-color: white;
+  opacity: .8;
+  position: absolute;
+  top: 0;
+  padding: 2vw;
+  border-radius: 10px;
+ }
+ .img-content p{
+  font-size: 70px;
+  line-height: normal;
+  font-weight: 700;
+ }
+ .img-content a button{
+  background-color: blue;
+  font-weight: 700;  
+  margin-top: 4vw;
+  font-size: 20px;
+  width: 18vw;
+ }
+
+ @media(max-width: 1073px){
+  .img-content{
+    margin-top:7vw;
+    width: 80vw;
+   }
+   .img-content p{
+    font-size: 65px;
+   }
+ }
+ @media(max-width: 997px){
+  .img-content{
+    margin-top:7vw;
+    width: 80vw;
+   }
+   .img-content p{
+    font-size: 55px;
+   }
+ }
+ @media(max-width: 850px){
+   .img-content p{
+    font-size: 45px;
+   }
+   .img-content a button{
+    font-weight: 600;  
+    margin-top: 2vw;
+    font-size: 18px;
+    width: 20vw;
+   }
+ }
+ @media(max-width: 708px){
+  .bg-img img{
+    height: 60vw;
+   }
+  .img-content p{
+   font-size: 40px;
+   font-weight: 600;
+  }
+  .img-content a button{
+   font-weight: 600;  
+   font-size: 16px;
+   width: 26vw;
+  }
+}
+
+@media(max-width: 570px){
+  .img-content p{
+   font-size: 35px;
+   font-weight: 600;
+  }
+  .img-content a button{
+   width: 28vw;
+  }
+}
+
+@media(max-width: 536px){
+  .bg-img img{
+    height: 70vw;
+   }
+   .img-content{
+    margin-top: 12vw;
+   }
+  .img-content p{
+   font-size: 28px;
+   font-weight: 600;
+  }
+  .img-content a button{
+   width: 35vw;
+  }
+}
+@media(max-width: 436px){
+  .bg-img img{
+    height: 80vw;
+   }
+   .img-content{
+    margin-top: 14vw;
+   }
+  .img-content a button{
+   width: 38vw;
+  }
+}
+@media(max-width: 424px){
+   .img-content{
+    margin-top: 10vw;
+   }
+}
+
+@media(max-width: 408px){
+  .bg-img img{
+    height: 90vw;
+   }
+  .img-content{
+   margin-top: 13vw;
+  }
+}
+
+@media(max-width: 372px){
+  .bg-img img{
+    height: 100vw;
+   }
+  .img-content{
+    margin-left: 7vw;
+   margin-top: 16vw;
+  }
+ 
+  .img-content a button{
+    width: 45vw;
+    margin-bottom:2vw ;
+   }
+}
+
+@media(max-width: 350px){
+  .bg-img img{
+    height: 110vw;
+   }
+  .img-content{
+   margin-top: 18vw;
+  }
+  .img-content a button{
+    margin-bottom:2vw ;
+   }
+}
+
+ 
+  
+
+
+
+ /* =============How its work============ */
+
+ .how-it-work{
+  padding-bottom: 4vw;
+  background-color: #f8ffff;
+  border-radius: 5px;
+ }
+.how-it-work p{
+  margin-top: 6vw;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+
+}
+ .works-content{
+  text-align: center;
+
+ }
+ .works-content i{
+  margin-top: 4vw;
+  padding-bottom: 3vh;
+  font-size: 80px;
+  color: #1c5ca6;
+ }
+ .works-content p{
+  margin-top: 2vw;
+  font-size: 18px;
+  font-weight: 500;
+ }
+
+ @media(max-width: 350px){
+  .how-it-work{
+    margin-top: 20vw;
+    padding-bottom: 4vw;
+    background-color: #f8ffff;
+    border-radius: 5px;
+   } 
+}
+
+
+
+@media(max-width: 595px){
+  
+  }
+
+
+
+ /* ========online menu========== */
+
+ .online-menu{
+  margin-top: 2vw;
+  background-color: rgb(242, 243, 243);
+  padding:2vw 2vw ;
+ }
+ .online-menu-color{
+  text-align: center;
+  margin-top: 2vw;
+  background-color: white;
+  padding-bottom: 5vw;
+ }
+ .online-menu-color p{
+  font-weight: 700;
+  font-size: 45px;
+ }
+
+
+ .card{
+  background-color: rgb(235, 235, 232);
+ }
+ .online-menu-card{
+  background-color: white;
+  padding: 2vw;
+ }
+ .card-header{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+ }
+ .card-body img{
+    border-radius: 10px;
+ }
+ .view-button {
+  text-align: center;
+  margin-top: 2vw;
+ }
+ .card-body  p{
+  margin-top: 1vw;
+ }
+ .view-button button{
+  font-weight: 600;
+ }
+
+ .card {
+  border: none;
+  box-shadow: #cfe2e2 2px 2px;
+ }
+
+ @media(max-width: 595px){
+
+  }
+
+
+ /* ===========Plans for everyone========== */
+
+ .plans{
+  margin-top: 4vw;
+  text-align: center;
+ }
+ .plans-card{
+  margin-top: 4vw;
+  padding: 2vw;
+  
+ }
+ .plans-header p{
+  font-size: 45px;
+  font-weight: 700;
+ }
+ .card-title{
+   font-weight: 600;
+  }
+  .card-body{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .card-body a{
+   width: 11vw;
+   background-color: #dc0c5c;
+   font-weight: 600;
+  }
+  @media(max-width: 950px){
+    .card-body a{
+      width: 20vw;
+     }
+  }
+  @media(max-width: 500px){
+    .card-body a{
+      width: 35vw;
+     }
+    }
+
+
+
+    @media(max-width: 595px){
+      
+      }
+  
+
+
+  /* ==========What people are saying ======== */
+
+  
+  .people-saying{
+    background-color: #edf0f0;
+    width: 100%;
+    height: 30vw;
+    margin-bottom: 3vw;
+    padding-bottom:2vw;
+  }
+  
+  .people-say{
+    background-color: #e8eaea;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+  }
+
+  .w3-content{
+    margin-top: 2vw;
+  }
+  .mySlides {
+    display:none;
+    background: transparent;
+  }
+
+  @media(max-width: 1060px){
+    .people-saying{
+      height: 40vw;
+    }
+    }
+  @media(max-width: 788px){
+    .people-saying{
+      height: 50vw;
+    }
+    }
+  @media(max-width: 595px){
+    .people-saying{
+      height: 70vw;
+    }
+    .people-say{
+      font-size: 40px;
+    }
+    }
+  @media(max-width: 470px){
+    .people-saying{
+      height: 80vw;
+    }
+    }
+  @media(max-width: 420px){
+    .people-saying{
+      height: 100vw;
+    }
+    }  
+
+  @media(max-width: 380px){
+    .people-saying{
+      height: 115vw;
+    }
+    }  
+
+  
+ 
+
+  /* ==========Our mission=========== */
+
+  .our-mission{
+    margin-top: 10vw;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
+
+  }
+
+  .mission-content{
+    padding: 3vw;
+  }
+  .mission-content p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .mission-content a button{
+    margin-top: 2vw;
+    background-color: #e15510;
+    font-weight: 600;
+  }
+  .mission-img img{
+    margin-top: 2vw;
+    width: 100%;
+    height: 35vw;
+    border-radius: 10px;
+  }
+
+  
+
+
